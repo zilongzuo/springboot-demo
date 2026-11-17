@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: springboot-demo
+  jackson:
+    default-property-inclusion: non_null
+
+logging:
+  level:
+    root: info
